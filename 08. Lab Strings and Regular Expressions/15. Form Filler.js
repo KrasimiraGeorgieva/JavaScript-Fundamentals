@@ -5,9 +5,9 @@ function solve(username, email, phoneNum,arr) {
 
     for (let str of arr) {
         console.log(str
-			.replace(usernameMatch, username)
-            .replace(emailMatch, email)
-            .replace(phoneNumMatch, phoneNum));
+		.replace(usernameMatch, username)
+            	.replace(emailMatch, email)
+            	.replace(phoneNumMatch, phoneNum));
     }
 }
 solve('Pesho',
