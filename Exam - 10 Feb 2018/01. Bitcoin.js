@@ -1,4 +1,4 @@
-function solve(arg) {
+function solve(strArr) {
     let input = strArr.map(Number);
     let countBitcoins = 0;
     let parchasedBitcoins = 0;
@@ -33,4 +33,4 @@ function solve(arg) {
     console.log(`Left money: ${money.toFixed(2)} lv.`)
 }
 
-solve();
+solve(['100', '200', '300']);
